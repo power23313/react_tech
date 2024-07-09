@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import {MyComponent, Greeting, MyButton, ConditionalRendering} from './private/jsx.js'
+import MyClassComponent from './private/componentExample/componentClassExample.js';
 import reportWebVitals from './reportWebVitals';
+import ParentComponent from './private/componentExample/componentParentPropsExample.js';
+import MyButtonProps from './private/componentExample/buttonParent.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +16,9 @@ root.render(
     <Greeting name="Allen" />
     <MyButton />
     <ConditionalRendering isLoggedIn="true"/>
+    <MyClassComponent />
+    <ParentComponent />
+    <MyButtonProps />
   </React.StrictMode>
 );
 
