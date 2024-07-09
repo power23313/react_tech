@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import {MyComponent, Greeting, MyButton, ConditionalRendering} from './private/jsx.js'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <MyComponent />
+    <Greeting name="Allen" />
+    <MyButton />
+    <ConditionalRendering isLoggedIn="true"/>
   </React.StrictMode>
 );
 
