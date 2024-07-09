@@ -7,6 +7,7 @@ import MyClassComponent from './private/componentExample/componentClassExample.j
 import reportWebVitals from './reportWebVitals';
 import ParentComponent from './private/componentExample/componentParentPropsExample.js';
 import MyButtonProps from './private/componentExample/buttonParent.js';
+import BlogApp from './page/BlogApp.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     <MyClassComponent />
     <ParentComponent />
     <MyButtonProps />
+    <BlogApp />
   </React.StrictMode>
 );
 
