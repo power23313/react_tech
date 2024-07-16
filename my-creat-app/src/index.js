@@ -8,6 +8,9 @@ import reportWebVitals from './reportWebVitals';
 import ParentComponent from './private/componentExample/componentParentPropsExample.js';
 import MyButtonProps from './private/componentExample/buttonParent.js';
 import BlogApp from './page/BlogApp.js';
+import Counter from './private/componentExample/useState.js';
+import RaccConditionCounter from './private/componentExample/raceCondition.js';
+import ButtonComponent from './private/componentExample/sendParamentEvent.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +24,9 @@ root.render(
     <ParentComponent />
     <MyButtonProps />
     <BlogApp />
+    <Counter />
+    <RaccConditionCounter />
+    <ButtonComponent />
   </React.StrictMode>
 );
 
