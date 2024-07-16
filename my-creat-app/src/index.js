@@ -11,6 +11,8 @@ import BlogApp from './page/BlogApp.js';
 import Counter from './private/componentExample/useState.js';
 import RaccConditionCounter from './private/componentExample/raceCondition.js';
 import ButtonComponent from './private/componentExample/sendParamentEvent.js';
+import MySelect from './private/componentExample/CombineSelect.js';
+import ExampleComponent from './private/componentExample/keyExample.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +29,8 @@ root.render(
     <Counter />
     <RaccConditionCounter />
     <ButtonComponent />
+    <MySelect />
+    <ExampleComponent />
   </React.StrictMode>
 );
 
