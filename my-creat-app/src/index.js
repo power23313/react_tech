@@ -14,8 +14,10 @@ import ButtonComponent from './private/componentExample/sendParamentEvent.js';
 import MySelect from './private/componentExample/CombineSelect.js';
 import ExampleComponent from './private/componentExample/keyExample.js';
 import Example from './private/componentExample/useEffectExample.js';
-import DataFetching from './private/componentExample/useEffectExample2.js';
+// import DataFetching from './private/componentExample/useEffectExample2.js';
 import EventListener from './private/componentExample/useEffectExample3.js';
+import GlobalProvider from './private/hookExample/useContext.js';
+import ChildComponent from './private/hookExample/useContext2.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,8 +37,10 @@ root.render(
     <MySelect />
     <ExampleComponent />
     <Example />
-    <DataFetching />
     <EventListener />
+    <GlobalProvider>
+      <ChildComponent />
+    </GlobalProvider>
   </React.StrictMode>
 );
 
