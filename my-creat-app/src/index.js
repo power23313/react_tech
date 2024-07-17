@@ -13,6 +13,9 @@ import RaccConditionCounter from './private/componentExample/raceCondition.js';
 import ButtonComponent from './private/componentExample/sendParamentEvent.js';
 import MySelect from './private/componentExample/CombineSelect.js';
 import ExampleComponent from './private/componentExample/keyExample.js';
+import Example from './private/componentExample/useEffectExample.js';
+import DataFetching from './private/componentExample/useEffectExample2.js';
+import EventListener from './private/componentExample/useEffectExample3.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +34,9 @@ root.render(
     <ButtonComponent />
     <MySelect />
     <ExampleComponent />
+    <Example />
+    <DataFetching />
+    <EventListener />
   </React.StrictMode>
 );
 
